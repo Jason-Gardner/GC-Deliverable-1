@@ -5,3 +5,10 @@ C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\deliverable1
 C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\deliverable1\obj\Debug\deliverable1.csproj.CoreCompileInputs.cache
 C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\deliverable1\obj\Debug\deliverable1.exe
 C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\deliverable1\obj\Debug\deliverable1.pdb
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\bin\Debug\deliverable1.exe.config
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\bin\Debug\deliverable1.exe
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\bin\Debug\deliverable1.pdb
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\obj\Debug\deliverable1.csprojAssemblyReference.cache
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\obj\Debug\deliverable1.csproj.CoreCompileInputs.cache
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\obj\Debug\deliverable1.exe
+C:\Users\Jason Gardner\Documents\Projects\deliverable1\deliverable1\obj\Debug\deliverable1.pdb

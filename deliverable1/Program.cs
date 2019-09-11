@@ -26,8 +26,8 @@ namespace deliverable1
             float amount2 = float.Parse(dollar2);
             float amount3 = float.Parse(dollar3);
             float dollarTotal = (amount1 + amount2 + amount3);
-            decimal dollaravg = Average(dollarTotal);
-            Console.WriteLine("The average of your amounts equals $" + Math.Round(dollaravg, 2));
+            decimal dollarAvg = Average(dollarTotal);
+            Console.WriteLine("The average of your amounts equals $" + Math.Round(dollarAvg, 2));
             Console.WriteLine("The highest amount was $" + MaxValue(amount1, amount2, amount3));
             Console.WriteLine("The lowest amount was $" + MinValue(amount1, amount2, amount3));
             Console.WriteLine();
@@ -45,43 +45,43 @@ namespace deliverable1
         // Methods called in program to calculate average, min and max
         static decimal Average(float dollarTotal)
         {
-            decimal taverage = (decimal)dollarTotal;
-            decimal average = (taverage / 3);
+            decimal tAverage = (decimal)dollarTotal;
+            decimal average = (tAverage / 3);
             return average;
         }
 
-        static decimal MaxValue(float dollara, float dollarb, float dollarc)
+        static decimal MaxValue(float dollarA, float dollarB, float dollarC)
         {
-            decimal maxamount;
-            if (dollara > dollarb && dollara > dollarc)
+            decimal maxAmount;
+            if (dollarA > dollarB && dollarA > dollarC)
             {
-                maxamount = (decimal)dollara;
-                return maxamount;
+                maxAmount = (decimal)dollarA;
+                return maxAmount;
             }
-            else if (dollarb > dollara && dollarb > dollarc)
+            else if (dollarB > dollarA && dollarB > dollarC)
             {
-                maxamount = (decimal)dollarb;
-                return maxamount;
+                maxAmount = (decimal)dollarB;
+                return maxAmount;
             }
-            else maxamount = (decimal)dollarc;
-            return maxamount;
+            else maxAmount = (decimal)dollarC;
+            return maxAmount;
         }
 
-        static decimal MinValue(float dollara, float dollarb, float dollarc)
+        static decimal MinValue(float dollarA, float dollarB, float dollarC)
         {
-            decimal minamount;
-            if (dollara < dollarb && dollara < dollarc)
+            decimal minAmount;
+            if (dollarA < dollarB && dollarA < dollarC)
             {
-                minamount = (decimal)dollara;
-                return minamount;
+                minAmount = (decimal)dollarA;
+                return minAmount;
             }
-            else if (dollarb < dollarc && dollarb < dollara)
+            else if (dollarB < dollarC && dollarB < dollarA)
             {
-                minamount = (decimal)dollarb;
-                return minamount;
+                minAmount = (decimal)dollarB;
+                return minAmount;
             }
-            else minamount = (decimal)dollarc;
-            return minamount;
+            else minAmount = (decimal)dollarC;
+            return minAmount;
         }
     }
 }
